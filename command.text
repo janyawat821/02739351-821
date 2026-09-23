@@ -1,0 +1,11 @@
+docker -v 
+docker ps
+docker ps --all //ดูdocker details ทั้งหมด
+docker run ...
+docker images
+docker run busybox ls //เอาข้อมูล in container to show 
+docker run busybox ping google.com //run แบบทำงานตลอด 
+docker stop CONTAINER ID //หยุดการทำงานcontainer ด้วย ID
+docker rm CONTAINER ID //เอาcontainerออกด้วย ID
+docker run eginx // run web-server ต้องกำหนด port
+docker run -p 80:80 nginx 
